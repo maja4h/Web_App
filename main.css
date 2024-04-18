@@ -1,0 +1,56 @@
+/*main css file created by Maja Heltowska*/
+body{
+	background-color: #ffcc99;
+	float: left;
+	margin: 50px;
+	font-family: helvetica;
+}
+
+/*BANNER*/
+
+/*main section styles*/
+.main{
+	background-color: #ffcc99;
+	/* tomato is a nice color*/
+	color: #990000;
+	border: 4px double tomato;
+	width: 800px;
+	padding: 8px;
+	/*float: left;
+	display: inline-block;
+	font-family, font-size, text-align*/
+	text-align: left;
+}
+
+/*text*/
+h1{
+	font-size: 22px;
+	
+}
+
+h2{
+	font-size: 21px;
+}
+
+p{
+	font-family: helvetica;
+	font-size: 16px;
+}
+
+/* # or .bannerimage {
+	width
+	height
+	background-image
+	background-position ?
+	and then in html code: <div id="bannerimage"></div>
+}*/
+
+footer{
+	color: #cc0000;
+	border: 4px solid tomato;
+	padding: 10px;
+	width: 800px;
+	display: inline-block;
+	text-align: left;
+	/*float: left;*/
+}
