@@ -1,31 +1,103 @@
-/*main css file created by Maja Heltowska*/
-body{
-	background-color: #ffcc99;
-	float: left;
-	margin: 50px;
-	font-family: helvetica;
+/* Main css file created by Maja Heltowska */
+
+header{
+	width: 825px;
+	height: 20px;
+	margin-left: 140px;
+	border: 3px dotted darkred;
+	margin-top:5px;
+	margin-bottom: 5px;
 }
 
-/*BANNER*/
+body{
+	background-color: #ffcc99;
+	margin-top: 50px;
+	font-family: helvetica;
+	margin-left: 140px;
+	margin-top:5px;
+	margin-bottom: 5px;
+}
 
-/*main section styles*/
+/* Banner Image */
+.banner-image{
+	width: 100%;
+	height: 200px;
+	/*border: 4px solid darkblue;
+	display: flex;
+	margin-left: 140px;
+	margin-top:5px;*/
+}
+
+/* Navigation Bar section*/
+.navbar{
+	width: 100%;
+	display: flex;
+}
+
+.navbar ul{
+	list-style-type: none;
+	background-color: #A52A2A;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.navbar a{
+	color: #6495ED;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 14px;
+	display: flex;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+
+.navbar ul li{
+	float: left;
+	padding: 0px;
+	display: inline;
+	margin-left: 15px;
+}
+
+.navbar a:hover{
+	background-color: tomato;
+}
+
+/* Main container for containing website */
+.mycontainer{
+	border: 4px solid darkred;
+	display: flex;
+	width: 825px;
+	flex-wrap: wrap;
+	margin-left: 140px;
+}
+
+/* Main content section styles */
 .main{
 	background-color: #ffcc99;
 	/* tomato is a nice color*/
 	color: #990000;
 	border: 4px double tomato;
-	width: 800px;
-	padding: 8px;
-	/*float: left;
-	display: inline-block;
-	font-family, font-size, text-align*/
+	width: 100%;
+	padding: 5px;
+	text-align: left;
+	margin-top: 3px;
+	margin-bottom: 20px;
+}  
+
+footer{
+	color: #cc0000;
+	border: 4px solid tomato;
+	padding: 5px;
+	width: 100%;
 	text-align: left;
 }
 
 /*text*/
 h1{
 	font-size: 22px;
-	
 }
 
 h2{
@@ -37,20 +109,12 @@ p{
 	font-size: 16px;
 }
 
-/* # or .bannerimage {
-	width
-	height
-	background-image
-	background-position ?
-	and then in html code: <div id="bannerimage"></div>
+/*.mycontainer{
+	border: 4px solid darkred;
+	width: 825px;
+	margin-left: 140px;
+	margin-top:5px;oblique
+	margin-bottom: 5px;
+	display: flex;
+	maybe flex-wrap: wrap;
 }*/
-
-footer{
-	color: #cc0000;
-	border: 4px solid tomato;
-	padding: 10px;
-	width: 800px;
-	display: inline-block;
-	text-align: left;
-	/*float: left;*/
-}
