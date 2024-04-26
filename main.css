@@ -50,7 +50,6 @@ body{
 	padding: 14px;
 	display: flex;
 	text-align: center;
-	display: block;
 	text-decoration: none;
 }
 
@@ -84,8 +83,17 @@ body{
 	padding: 5px;
 	text-align: left;
 	margin-top: 3px;
-	margin-bottom: 20px;
-}  
+	margin-bottom: 40px;
+}
+
+.hide{
+	display: none;
+}
+
+.nearbyhover:hover + .hide{
+	display: block;
+	color: darkred;
+}
 
 footer{
 	color: #cc0000;
@@ -97,24 +105,30 @@ footer{
 
 /*text*/
 h1{
-	font-size: 22px;
-}
-
-h2{
 	font-size: 21px;
 }
 
+h2{
+	font-size: 18px;
+	color: #4169E1;
+}
+
 p{
-	font-family: helvetica;
 	font-size: 16px;
 }
 
-/*.mycontainer{
-	border: 4px solid darkred;
-	width: 825px;
-	margin-left: 140px;
-	margin-top:5px;oblique
-	margin-bottom: 5px;
-	display: flex;
-	maybe flex-wrap: wrap;
-}*/
+ul{
+	list-style-type: solid circle;
+}
+
+a{
+	color: #6495ED;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 2px;
+}
+
+a:hover{
+	background-color: tomato;
+}

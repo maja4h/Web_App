@@ -3,8 +3,11 @@
 <!-- Home/Main webpage by Maja Heltowska -->
 	<meta charset="UTF-8"> 
 	<head>
+	<!-- Linking CSS and JS -->
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="myscript.js"></script>
 		<title>Look Out The Window</title>
+		
 		<header>
 	
 		<!-- Marquee animation code -->
@@ -22,32 +25,44 @@
 	
 	<!-- Navigation Bar -->
 	<nav class="navbar">
-	<ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="nice-day.html">Nice Day Ideas</a></li>
-		<li><a href="not-nice.html">Gloomy Day Ideas</a></li>
-		<li><a href="collectables.html">Collectables</a></li>
-	</ul>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="nice-day.html">Nice Day Ideas</a></li>
+			<li><a href="not-nice.html">Gloomy Day Ideas</a></li>
+			<li><a href="collectables.html">Collectables</a></li>
+		</ul>
 	</nav>
 	
 	<!-- Main content -->
 	<section class="main">
-		<h1>Hello WEbberes</h1>
+		<h1>Welcome to my weather based activity guide!</h1>
 		
-		<h2>This is H2</h2>
-		<p>wors</p>
+		<h2>Just look out the window and check what the weather is like, this website will guide you on what you 
+		could possibly do today.</h2>
+		<p>There are ideas for nice sunny days as well as for gloomier and rainy days. This is however just a guide,
+		anyone can do what they want these are just some ideas. Mainly to let people (and myself) to explore
+		different potential activities during their free time and maybe even discover a new hobby.</p>
+		<br>
+		<!-- A suggestions highlight with options - still not fully working-->
+		<p>Here are some suggestions: </p>
+		<label for="weather">Select the weather type you see today: </label>
+		<select id="weather">
+			<option value="">--Your choice--</option>
+			<option value="sunny">Sunny</option>
+			<option value="warm">Sunny and Warm</option>
+			<option value="rainy">Rainy</option>
+			<p>
+			
+			</p>
+			
+		</select>
 	</section>	
 
 	<!-- Footer -->
-	<footer> <p>This is the footer.
-	NOTES: Ok there will be activities to do on a nice sunny day and 
-		activities for not so great weather days.</p>
-		<p>so things like knitting, watching a movie, reading books (recs), 
-		knitting(and others)/learning to sow, learn to cook or bake for example bread or cakes or just try out new recipes,
-		perhaps learn a new instrsument</p>
-		<p>for nice days: go out for a walk an wander and explore. go on a roadtrip (roadtrip playlist),
-		try out that cafe you saw but never, beach or lake, hiking (forests, mountains)</p></footer>
+	<footer> 
+		<p>Made by Maja Heltowska</p>
+	</footer>
 	</div>
-	</body>
 	
+	</body>
 </html>
